@@ -7,5 +7,6 @@ bashrc.d/prompt  minimalistic git prompt
 bashrc.d/alias   useful aliases
 
 ## tools
-tomp3.sh         extract audio from mp4/webm files using ffmpeg
+install.sh	install tools, autodetect yum/apt/port/brew
+tomp3.sh        extract audio from mp4/webm files using ffmpeg
 
