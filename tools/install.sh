@@ -1,3 +1,5 @@
+#!/bin/sh
+
 NPM_INSTALL_OPTS='--loglevel=error'
 PKG_MANAGER=$( command -v yum || command -v apt-get || command -v port || command -v brew ) || { echo "No system installer found (yum, apt-get, port, or brew)"; }
 if which tput; then
