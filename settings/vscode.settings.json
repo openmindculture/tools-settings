@@ -1,0 +1,31 @@
+{
+    "telemetry.enableTelemetry": false,
+    "breadcrumbs.enabled": true,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "editor.wordBasedSuggestions": false,
+    "editor.autoClosingBrackets": false,
+    "javascript.autoClosingTags": false,
+    "explorer.confirmDragAndDrop": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "editor.tabSize": 2,
+    "window.zoomLevel": -1,
+    "files.associations": {
+        ".eslintrc": "jsonc"
+    },
+    "workbench.editor.closeOnFileDelete": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "extensions.ignoreRecommendations": false,
+    "search.useGlobalIgnoreFiles": true,
+    "explorer.compactFolders": false,
+    "[php]": {
+    
+  },
+  "editor.stopRenderingLineAfter" : -1,
+  "workbench.colorTheme": "Visual Studio Dark",
+  "editor.maxTokenizationLineLength": 900900900
+}
