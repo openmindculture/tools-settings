@@ -1,1 +1,2 @@
-alias dcu='docker-compose up'
+alias ll='ls -alF'
+alias codium='flatpak run com.vscodium.codium'
