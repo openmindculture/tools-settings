@@ -1,3 +1,5 @@
+# MacOS bash
+
 alias ll="ls -lG"
 alias gitk="open -a sourcetree"
 GIT_PROMPT_ONLY_IN_REPO=1
