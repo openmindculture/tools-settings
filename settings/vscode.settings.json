@@ -26,5 +26,9 @@
   },
   "editor.stopRenderingLineAfter" : -1,
   "workbench.colorTheme": "Visual Studio Dark",
-  "editor.maxTokenizationLineLength": 900900900
+  "editor.maxTokenizationLineLength": 900900900,
+  "liquid.format": true,
+  "stylelint.configOverrides": {
+    "ignoreFiles": "**/*.liquid"
+  }
 }
