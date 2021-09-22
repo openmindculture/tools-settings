@@ -1,4 +1,10 @@
 {
+  "spellcheck":{
+    "dictionaries":[
+      "en-US"
+    ],
+    "dictionary":""
+  },
   "telemetry.enableTelemetry": false,
   "breadcrumbs.enabled": true,
   "editor.minimap.enabled": false,
