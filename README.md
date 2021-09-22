@@ -1,5 +1,10 @@
 # tools-settings
-Tools, Settings, Code Snippets for personal use
+Tools, Settings, Code Snippets for personal use,
+depends on the operating system, only install to fix actual issues!
+Mainly used an tested on Linux (Ubuntu / mate / mint / budgie).
+Visual Studio Code settings are compatible to VS Codium settings.
+
+> If it ain't broke, don't fix it.
 
 # settings
 bashrc.d         includes for bashrc / profile
