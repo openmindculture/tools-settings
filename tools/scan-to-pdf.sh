@@ -11,3 +11,6 @@ scanimage --format jpeg --resolution 600 --mode Color --output img3.jpg
 
 # convert to pdf using imagemagick
 convert img*.jpg img.pdf
+
+# merge existing pdf files using pdfunite
+pdfunite img.pdf exiting-attachment.pdf output.pdf
