@@ -1,2 +1,9 @@
 # raise watches to prevent ENOSPC with cypress
 fs.inotify.max_user_watches=524288
+
+# prevent timeouts when communicating with latent routers
+# override default 60s timeout:
+net.ipv4.tcp_fin_timeout=180
+
+# override default 5 passive ftp retries
+net.ipv4.tcp_synack_retries=8
