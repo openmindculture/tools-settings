@@ -1,0 +1,31 @@
+## CHANGELOG
+
+add changelog file;
+add more typical content to learn from;
+add resource snippets;
+ignore settings;
+increase network timeouts;
+allow louder sound on startup;
+lighter terminal color;
+merge pull request;
+describe how to merge existing pdf files using pdfunite;
+how to use scanimage and convert to pdf example;
+add a simple dark browser home page;
+add high resolution example;
+turn off keyboard illumination on startup;
+disable touchpad while typing;
+add original settings;
+fix merge conflict;
+add color sets;
+add initial configuration for terminal editor;
+update docker cleanup script;
+add disclaimer info;
+raise watches to prevent ENOSPC with cypress;
+fix webp preview in nemo file mgr on linux;
+local settings;
+update alias;
+remove obsolete definition;
+set permissions explicitly;
+set executable permissions;
+add launcher files;
+initial commit;
