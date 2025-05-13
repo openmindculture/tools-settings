@@ -139,11 +139,13 @@ remove obsolete definition;
 set permissions explicitly;
 set executable permissions;
 add launcher files;
-initial commit;
+add roadmap items:
 
 ## Development Roadmap
 
 - improve test coverage
+- add regression tests
+- refactor main style files
 - upgrade outdated code dependencies
 - refactor CSS to improve readability maintainability
 - refactor JS: split into testable unit files
