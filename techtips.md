@@ -12,6 +12,14 @@ USB-Tethering: just plug in (then it also charges the device battery, even if th
 
 Check in Linux Mint using nm-widget (restart if crashed)
 
+
+## Using CMS Page Templates and CMS Collection Content in WebFlow
+
+We know static text, directly written in the page editor. How can we work with Webflow's CMS Collections Content?Create a CMS collection.Create a CMS collection page template.Whenver you create a new item (e.g., blog post, help article, etc.) in a Webflow CMS Collection, a page is automatically created for it. Collection Pages work like templates — the layout and design of the Collection Page will ly to every Collection item's page.That means Collection Pages are essentially templates for recurring pieces of content, such as blog posts, help articles, or even landing pages.The power of CMS pages is that it’s one template populated with different data pulled from your CMS.How does the Webflow CMS work?The CMS is a structured database that lets you store and manage content. You start by creating a CMS Collection, which serves as a database for a specific topic or type of content. Within the Collection, you create individual entries (e.g., one blog post) called Collection items.Collection items can be dynamically added to your site as Collection pages, which you design using the Collection page template. The dynamic nature of CMS Collections lets you scale content creation without needing to build a unique static page for each entry. You can also insert dynamic content from Collection items on your static site pages with Collection lists.
+
+Source: https://help.webflow.com/hc/en-us/articles/33961307099027-Intro-to-the-Webflow-CMS#h_01JS5AK4YM1PYVDB07VYDSYKCQ
+
+
 ## Show Debugging Output in the Browser in WordPress
 
 ```
