@@ -66,6 +66,44 @@ must always stay visible without javascript, so we hide them by script when the 
 
 ### Requirements, Fallbacks, and Workarounds
 
+The issue seems to be related to glib version as on stable debian we now have 2.31 (source https://tracker.debian.org/pkg/glibc) and current GDLauncher requires 2. What is glib? 
+It is a low level core library.
+Split Packages: glib2-devel, glib2-docs.
+Architecture: x86_64.
+Repository: Core.
+GNOME discourse:
+
+How load image and create Gdk.Pixbuf from it used Gegl?
+
+GEGL and its dependencies are known to build and run on Linux, Microsoft Windows with MSYS2/MINGW and Mac OSX. It probably can be built on other systems. GDK stands for the Microsoft Game Development Kit and for a graphics library used to compile GIMP, the GNU image manipulation program.
+
+- C
+- Core
+- CSS
+- GIMP
+- GEGL
+- gdl
+- gdk
+- gtk
+- gitk
+- giggle
+- glide
+- glade
+- Python
+- JavaScript
+- JSON
+- Java
+- Jackson
+- Jakarta
+- EcmaScript
+- TypeScript
+- Babel
+- Webpack
+
+How to use jakarta tomcat deployment descriptor syntax?
+
+The Jakarta Servlet deployment descriptor, commonly used with Jakarta Tomcat, is represented by the web.xml file located in the WEB-INF directory of a web application. This XML file is structured according to the web-app_X_Y.xsd schema. The complete syntax and semantics for the deployment descriptor is defined in Chapter 13 of the Servlet API Specification.
+
 TODO reactivate workaround when obsoleted by a bug fix.
 Ensure 3 search results, use latest posts as fallbacks for unsupported fuzzy search.
 Fetch 3 more so that we can skip duplicates.
@@ -74,9 +112,38 @@ Accept AJAX request from legitimate major modern browser users.
 Provice a fallback for plain web form submit.
 Harmonize vertical alignment.
 Prevent iPhone mobile safari zooming in if page contains text smaller than 16px.
+Optionally cross-fade with a pseudo page skeleton like in a JS application, unless the user prefers reduced motion.
 Don’t headbutt the browser window.
+Report inappropriate predictions.
 Liquid render does not pass variables, but include does.
-Define an additional hover zone to prevent hanging/blinking mouse over flip-flop.
+
+Flipping an element in a mouseover hover:
+Define an additional hover zone to prevent hanging/blinking mouse over flip-flop like Mickey Mouse in flip-flop thongs. On hover the div code below works perfectly. But What I want is that, if someone only click on the button flip this flipping of div should work.
+
+### Hidden Issues, Comments and Verbose Debugging
+
+Undefined function get_template_directory
+
+console.log('mobile menu opener click handler added');
+// TODO: remove console output
+
+Navigated to http://localhost
+Mobile menu opener found.
+Mobile menu opener click handler added.
+localhost/:1
+Unchecked runtime.lastError: The message port closed before a response was received.
+
+#### What's new in Chrome DevTools?
+
+What's new in Chrome DevTools?
+Privacy terms and security lighthouse recorder media styles!
+Create calendar week weather forecast directly in Chrome DevTools.
+
+See all new features.
+
+Click events to keep them highlighted in the performance tab!
+Toogle paint flashing rendering. Enable automatic dark mode.
+Reading cookie in cross-site context may be impacted on the Chrome browser. Chrome is moving towards a new experience that allows users to choose to browse without third-party cookies.
 
 ## Development, Testing, and Refactoring
 

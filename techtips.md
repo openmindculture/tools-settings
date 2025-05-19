@@ -61,7 +61,7 @@ View Transitions API
 
 When dealing with large blocks of text, such as paragraphs, you might want to look into text-wrap: pretty to prevent orphans on the last line.
 
-State Queries
+## CSS State Queries
 https://chromestatus.com/feature/5072263730167808
 - Whether a sticky positioned container is stuck to one of the edges of the scroll box (stuck)
 - Whether a scroll snap aligned container is currently snapped horizontally or vertically (snapped)
@@ -79,3 +79,6 @@ https://mailchi.mp/smashingmagazine/472-new-css-features-for-2025?e=376e82ff51
 Git status: nothing to commit, working tree clean.
 Your branch is ahead of 'origin/main' by 2 commits.
 Use "git push" to publish your local commits.
+
+## Edit PDF metadata using exiftool
+exiftool -Title="New Title" -Author="New Author" -Subject="New Subject" -Keywords="PDF, Metadata" example.pdf
