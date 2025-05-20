@@ -78,6 +78,7 @@ How load image and create Gdk.Pixbuf from it used Gegl?
 GEGL and its dependencies are known to build and run on Linux, Microsoft Windows with MSYS2/MINGW and Mac OSX. It probably can be built on other systems. GDK stands for the Microsoft Game Development Kit and for a graphics library used to compile GIMP, the GNU image manipulation program.
 
 - C
+- Cypress
 - Core
 - CSS
 - GIMP
@@ -100,6 +101,18 @@ GEGL and its dependencies are known to build and run on Linux, Microsoft Windows
 - Babel
 - Webpack
 
+Assertion error: expected to find an element but never found it.
+
+How to check for presence and visibility in Cypress tests?
+
+AssertionError: Timed out retrying after timeout when expected the element to be visible. The element is not visible because it has an effective zero height of 0 pixels at context evaluation.
+
+In Cypress, the `cy.get()` method is one of Cypress’s most commonly used methods for interacting with elements on a web page. It allows you to retrieve an element based on its CSS selector and then perform actions or confirm its status. Cypress provides several ways to verify that an element is present on a page. To check if an element is present as an empty container, you can use the `cy.get()` method to get an element and assert that it should exist assertion in Cypress to see if it exists.
+
+How to use Cypress to submit a web form?
+
+It is unsafe to chain further commands that rely on the subject after .submit(). The submit method cannot be chained off 'cy'. Submit can only be called on a single form. Submit is not an action command and does not follow the same rules of waiting for actionability. How does Cypress determine if an element is actionable? Cypress actions simulate a user interacting with your application. Under the hood, Cypress fires the events a browser would fire thus causing your application's event bindings to fire. Cypress will watch the DOM - re-running the queries that yielded the current subject - until an element passes all of these checks for the duration of the defaultCommandTimeout as described in depth in the Implicit Assertions core concept guide.
+
 How to use jakarta tomcat deployment descriptor syntax?
 
 The Jakarta Servlet deployment descriptor, commonly used with Jakarta Tomcat, is represented by the web.xml file located in the WEB-INF directory of a web application. This XML file is structured according to the web-app_X_Y.xsd schema. The complete syntax and semantics for the deployment descriptor is defined in Chapter 13 of the Servlet API Specification.
@@ -119,6 +132,22 @@ Liquid render does not pass variables, but include does.
 
 Flipping an element in a mouseover hover:
 Define an additional hover zone to prevent hanging/blinking mouse over flip-flop like Mickey Mouse in flip-flop thongs. On hover the div code below works perfectly. But What I want is that, if someone only click on the button flip this flipping of div should work.
+
+### Collaboration and Continuous Integration
+
+Git failed to push some refs to origin, push rejected, non fast-forward.
+Hint: updates were rejected because the tip of your current branch is behind its remote counterpart. If you want to integrate the remote changes, use `git pull` before pushing again or use `git push --force-with-lease`.
+GitHub pull request pipelin passed.
+GitLab merge request pipeline passed.
+Code Quality hasn't changed.
+Security scanning detected new potential vulnerabilities.
+Compare commit with previous version.
+Rebase branch on origin main.
+Approval is optional.
+Assign reviewers.
+Ready to merge!
+Time tracking: no estimate or time spent.
+Automatically deploy commits to the main branch on Netlify. 
 
 ### Hidden Issues, Comments and Verbose Debugging
 
