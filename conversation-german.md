@@ -1,3 +1,5 @@
+Ins Gespräch kommen: Reden ist ein Bedürfnis. Zuhören ist eine Kunst.
+
 Danke!
 Sieht gut aus!
 Cool!
@@ -58,3 +60,13 @@ langfristig viel Zeit haben, Wartungverträge, Stammkunden und interessante und/
 - allgemeine Benefits/Impact Seiten
 - Hacker CV
 - Preis ab ... nirgendwo sondern nur noch individuell angeboten.
+  Ecken immer rund.
+  Dropdown entfällt zugunsten des Accordions,
+  sondern in den Kästen sollen die Infos stehen:
+  konkrete Gestaltung vorschlagen oder Designer Feedback abwarten.
+
+Slider Karussell soll andere Logos auswählbar machen.
+
+"... ein zuverlässiger Partner" kommt statt des Lorem Ipsum auf der linken Seite, Kreis ist Platzhalter für ein Bild das der Designer suchen oder erstellen will wie Stempel oder Siegel vgl. Laderad-mäßiger Spinner der sich gerne auch drehen könnte wie die scroll-linked Animation auf der Startseite.
+
+oder Text auf Kreisbogen
