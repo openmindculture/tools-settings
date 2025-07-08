@@ -74,6 +74,43 @@ See full discussion in this public prompt archive (TODO verify if that lasts) cr
 
 https://g.co/gemini/share/8c6ea26002e9
 
+- TODO link more public discussions, blog posts, tutorials,
+- TODO link more files from this very repository
+- TODO link my own recent, featured, or "best practice" repositories, public or not, e.g.
+     -  https://github.com/openmindculture/intellij-orange-rain-light-theme
+     -  https://github.com/openmindculture/gist-patches
+     -  https://github.com/openmindculture/tools-settings
+     -  https://github.com/openmindculture/kleiderordnung-berlin
+     -  https://github.com/openmindculture/sw-IngoSCostTransparency
+     -  https://github.com/openmindculture/ingo-steinke.de
+     -  https://github.com/openmindculture/react-dataviz-demo
+- https://dev.to/ingosteinke/8-alternatives-to-ai-for-coding-and-creativity-26k3
+- https://dev.to/ingosteinke/where-is-the-vibe-in-vibe-coding-and-what-happened-to-music-monday-49ek
+- https://dev.to/ingosteinke/pure-css-parallax-perspective-beyond-landscape-images-24g2
+- https://dev.to/ingosteinke/css-hasparent-selectors-287c
+- [Personalizing AI Coding Assistants with Git and RAG](https://g.co/gemini/share/8c6ea26002e9)
+- [Disable YouTube Auto-Translation Audio](https://g.co/gemini/share/35a4831e5ab2)
+
+How limited is Google Gemini chat history? Can I access chat that are not longer in the chat history? Can I always access Gemini chats shared using a public link or do they expire? 
+
+Limitations of Google Gemini Chat History:
+
+Context Window vs. Long-Term Memory: While Gemini, especially versions like 2.5 Pro, have a large "context window" (the amount of information it can actively remember within a single conversation), this isn't infinite. As chats get very long, Gemini may start prioritizing recent information, potentially "forgetting" earlier parts of the same conversation.
+
+No Dedicated Search Function (as of early July 2025): Currently, there isn't a robust, built-in keyword search function for your entire Gemini chat history. You can usually see a list of your recent and pinned chats, but finding a specific older conversation often involves a lot of manual scrolling. There are indications that Google is working on adding a search feature.
+
+Reliance on Google Activity: Your chat history with Gemini is saved and managed through your Google account's "My Activity" section, specifically under "Gemini Apps Activity." This is where you can review, delete, or manage how long this information is stored.
+
+Users can generally access chats that are no longer immediately visible in your recent or pinned chats. As mentioned, your full chat history is stored in your "Gemini Apps Activity" within your Google account. You'll need to go to myactivity.google.com/product/gemini and scroll through the chronological list to find older conversations. However, as noted above, there's no easy search functionality there yet.
+
+When you share a Gemini chat using a public link (e.g., g.co/gemini/share/abcxyz), that link remains publicly accessible as long as the associated chat is saved in your Gemini Apps Activity. Creating a public link means anyone with the link can read the chat and even continue it with Gemini Apps on their own (unless it's a chat created with Gems or a premium plan that the new user doesn't have a subscription for). Your name or account is not added to the URL.A public link will be deleted if any part of the original chat it links to is deleted from your Gemini Apps Activity. This can happen if:
+
+You manually delete it from your Gemini Apps Activity.
+
+It's automatically deleted from your Gemini Apps Activity based on your retention settings.
+
+You delete it from your pinned and recent chats.
+
 ## settings
 bashrc.d         includes for bashrc / profile
 bashrc.d/prompt  minimalistic git prompt
