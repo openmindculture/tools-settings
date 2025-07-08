@@ -8,7 +8,11 @@ Visual Studio Code settings are compatible to VS Codium settings.
 
 ## Knowledge Base + Code Library
 
-Building a Custom Knowledge Base (Intermediate to Advanced)
+TODO: alway ensure that code snippets and screenshot don't expose customer data
+
+TODO: add screenshots
+
+TODO: Building a Custom Knowledge Base (Intermediate to Advanced)
 
 This is where you explicitly feed your project's code and documentation to the AI as a dedicated knowledge source. This typically involves techniques like Retrieval-Augmented Generation (RAG) or, in more advanced cases, fine-tuning.
 
