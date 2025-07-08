@@ -8,6 +8,10 @@ TODO paste from research and AI answers
 
 - TODO
 
+## Ensure Correct Indentation and Code Completion
+
+To prevent incorrect indentation when pasting YAML code into an existing YAML file in PhpStorm, ensuring proper paste handling when pasting code, use Paste Simple (Ctrl + Shift + Alt + V) to paste the code exactly as it is without reformatting. If it reformats due to configured settings, manually trigger formatting with Ctrl + Alt + L after adjusting indentation levels. Before pasting, place the cursor where the pasted code should align, and it will inherit the proper indent level based on the current line.
+
 ## Integrated Terminal vs. External Shell
 
 The built-in terminal had no real advantage for me. Disadvantages: complicated configuration, keeps using wrong node version, takes up IDE screen space, no AI integrations as JetBrains AI still can't read command output even if it's in the integrated IDE terminal.
