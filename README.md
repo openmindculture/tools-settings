@@ -14,6 +14,8 @@ These notes, code snippets, and links to documentation, tutorials, and repositor
 
 However, most notably, these notes should serve as an inspiration and as a key to trigger recalling and remembering what I already knew, making them valuable without needing to be complete, current or authoritative. Combining those notes, experience, and intuition with current official documentation, search results, and AI assistance, can possibly help to make coding more efficient, reuse poven best-practice examples, prevent repeating errors, produce higher quality, and make (web) development more fun (again). 
 
+Let's not strive for completeness and explicitness! There is already too much verbose and overengineered information online where we'd often prefer pragmatism and simplicity! We don't want to externalise our knowledge and we can't obsolete our experience, gut feelings, and intuition, so humans should keep secrets and train our brains!
+
 TODO: alway ensure that code snippets and screenshot don't expose customer data
 
 TODO: add screenshots
