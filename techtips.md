@@ -1,5 +1,18 @@
 # Tech Tips and Dev Links
 
+## Recent AI Answers and Links (TODO: review, rephrase, sort)
+
+### Ensure Latest Node Version in Jetbrains Terminal 
+
+To configure PhpStorm's terminal to always use the latest nvm Node.js version without changing external shell settings:
+- Open PhpStorm and go to File > Settings > Tools > Terminal.
+- In the Shell path, set it to:
+
+`bash -i -c "source $HOME/.nvm/nvm.sh; nvm use node; exec bash"`
+
+This ensures nvm is sourced and the latest Node.js version is automatically activated in PhpStorm's terminal.
+Click OK to save and restart the terminal inside PhpStorm.
+
 ## Coding Custom Blocks in WordPress
 
 Custom blocks need funktionally redundant code both in PHP (for rendering to the frontend) as well as in JavaScript (React component for the block editor).
