@@ -6,7 +6,75 @@ Visual Studio Code settings are compatible to VS Codium settings.
 
 > If it ain't broke, don't fix it.
 
-# settings
+## Knowledge Base + Code Library
+
+Building a Custom Knowledge Base (Intermediate to Advanced)
+
+This is where you explicitly feed your project's code and documentation to the AI as a dedicated knowledge source. This typically involves techniques like Retrieval-Augmented Generation (RAG) or, in more advanced cases, fine-tuning.
+
+A. Retrieval-Augmented Generation (RAG) - Most Practical for Individual Use
+
+RAG is the most common and accessible way to augment an LLM with your private data. Instead of retraining the entire model, you create a searchable knowledge base from your git projects. When you prompt the AI, relevant snippets from your knowledge base are retrieved and provided to the LLM as additional context.
+
+1. Extract Your Code and Documentation: create a script to traverse your code repositories, selective Inclusion based on file suffixes vs. exclusion-based scraping. Format for LLM Consumption: Combine the content of chosen files into a structured format. A good approach is to prefix each code/document chunk with its filename and path for context (e.g., // FILE: src/my_module/utils.py\ndef my_function()
+
+Example script idea for bash or python, to do extract from these notes
+
+```
+#!/bin/bash
+output_file="./combined_for_llm.txt"
+> "$output_file" # Clear existing file
+
+git ls-files --cached --others --exclude-standard | while read -r file; do
+  if [ -f "$file" ]; then
+    echo "// FILE: $file" >> "$output_file"
+    cat "$file" >> "$output_file"
+    echo "\n" >> "$output_file" # Add a newline for separation
+  fi
+done
+```
+
+Chunking and Embedding:
+
+Chunking: Break down your extracted code and documentation into smaller, manageable "chunks." These chunks should be semantically meaningful (e.g., a single function, a class definition, a paragraph of documentation). Tools exist to help with code-aware chunking.
+
+Embedding: Use an embedding model (e.g., from OpenAI, Google, Hugging Face) to convert each text chunk into a numerical vector (embedding). These embeddings capture the semantic meaning of the chunk.
+
+Vector Database:
+
+Store these embeddings in a vector database (e.g., Chroma, Pinecone, FAISS, Weaviate). This allows for efficient similarity search.
+
+Integration with your AI Assistant/Workflow:
+
+Prompt-based RAG (DIY):
+
+When you have a coding query, first perform a semantic search in your vector database using the query.
+
+Retrieve the top N most relevant code/documentation chunks.
+
+Construct a prompt for your LLM (Copilot, Google AI Studio, JetBrains AI) that includes your original query and the retrieved relevant chunks as context.
+
+This works best if the AI platform allows for sufficiently large context windows.
+
+Tools/Platforms with RAG Capabilities:
+
+Google AI Studio (Gemini API): You can programmatically integrate your RAG system with the Gemini API. You'd manage your knowledge base externally (as described above) and then include the relevant context in your API calls. Google Cloud Vertex AI offers more robust RAG solutions for enterprises, which might be overkill for an individual, but worth knowing.
+
+GitHub Copilot Enterprise, Third-Party RAG Frameworks: Frameworks like LangChain or LlamaIndex, Local LLMs (with RAG) like Code Llama, StarCoder via Ollama) and implement a RAG system on top of them. This gives you full control over your data.#
+
+JetBrains AI Assistant:
+
+Contextual Understanding: JetBrains AI Assistant excels at understanding the context within your IDE (open files, project structure).
+
+Prompt Library: JetBrains IDEs offer a "Prompt Library" where you can save custom prompts. While not a full knowledge base, you can create prompts that encourage the AI to consider specific patterns or best practices from your projects.
+
+Limited Direct Knowledge Base Integration: Similar to individual Copilot, direct "uploading" of an external knowledge base for RAG isn't a core user-facing feature. However, you can use local RAG (as described above) to pre-process your queries before sending them to the JetBrains AI assistant's chat.
+
+See full discussion in this public prompt archive (TODO verify if that lasts) created by sharing a gemini conversation as a public link:
+
+https://g.co/gemini/share/8c6ea26002e9
+
+## settings
 bashrc.d         includes for bashrc / profile
 bashrc.d/prompt  minimalistic git prompt
 bashrc.d/alias   useful aliases
