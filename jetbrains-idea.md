@@ -8,6 +8,12 @@ TODO paste from research and AI answers
 
 - TODO
 
+## Integrated Terminal vs. External Shell
+
+The built-in terminal had no real advantage for me. Disadvantages: complicated configuration, keeps using wrong node version, takes up IDE screen space, no AI integrations as JetBrains AI still can't read command output even if it's in the integrated IDE terminal.
+
+## Leveraging JetBrains IDEA Advantages over VSCode
+
 Grundlegende Überlegung:
 
 Do JetBrains IDEs like WebStorm or PhpStorm still have significant advantage over VSCode-based alternatives like VSCode, Cursor, Codium in 2025? If so, how to leverage those advantages without getting overwhelmed by the numerous menu entries and keyboard shortcuts?
