@@ -1,5 +1,5 @@
 # tools-settings
-Tools, Settings, Code Snippets for personal use,
+Tools, Settings, Code Snippets, and notes as a knowledge base for personal use.
 depends on the operating system, only install to fix actual issues!
 Mainly used an tested on Linux (Ubuntu / mate / mint / budgie).
 Visual Studio Code settings are compatible to VS Codium settings.
@@ -7,6 +7,12 @@ Visual Studio Code settings are compatible to VS Codium settings.
 > If it ain't broke, don't fix it.
 
 ## Knowledge Base + Code Library
+
+These notes, code snippets, and links to documentation, tutorials, and repositories can serve as a partial personal knowledge base or library, possibly as public version to be found using search engines, or for training local or public LLM-based AI assistants. This can be cross-linked with tutorials and blog posts. Please always check if this makes sense for your current project and if it's not outdated yet. (It probably is!)
+
+### Recall Inspiration 
+
+However, most notably, these notes should serve as an inspiration and as a key to trigger recalling and remembering what I already knew, making them valuable without needing to be complete, current or authoritative. Combining those notes, experience, and intuition with current official documentation, search results, and AI assistance, can possibly help to make coding more efficient, reuse poven best-practice examples, prevent repeating errors, produce higher quality, and make (web) development more fun (again). 
 
 TODO: alway ensure that code snippets and screenshot don't expose customer data
 
