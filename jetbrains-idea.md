@@ -8,6 +8,10 @@ TODO paste from research and AI answers
 
 - TODO
 
+## WebStorm vs. PhpStorm for Front-End Development
+
+All of WebStorm’s functionality is available in PhpStorm, either out of the box or via free plugins. There's no need to purchase licenses for both PhpStorm and WebStorm unless you want a dedicated tool for specific technologies. If this is the case, WebStorm can be a better choice for JavaScript and TypeScript-focused development.
+
 ## Ensure Correct Indentation and Code Completion
 
 To prevent incorrect indentation when pasting YAML code into an existing YAML file in PhpStorm, ensuring proper paste handling when pasting code, use Paste Simple (Ctrl + Shift + Alt + V) to paste the code exactly as it is without reformatting. If it reformats due to configured settings, manually trigger formatting with Ctrl + Alt + L after adjusting indentation levels. Before pasting, place the cursor where the pasted code should align, and it will inherit the proper indent level based on the current line.
