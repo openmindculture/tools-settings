@@ -10,7 +10,7 @@ TODO paste from research and AI answers
 
 ## WebStorm vs. PhpStorm for Front-End Development
 
-All of WebStorm’s functionality is available in PhpStorm, either out of the box or via free plugins. There's no need to purchase licenses for both PhpStorm and WebStorm unless you want a dedicated tool for specific technologies. If this is the case, WebStorm can be a better choice for JavaScript and TypeScript-focused development.
+PhpStorm is essentially WebStorm with added PHP, database, and SQL support. All of WebStorm’s functionality is available in PhpStorm, either out of the box or via free plugins. There's no need to purchase licenses for both PhpStorm and WebStorm unless you want a dedicated tool for specific technologies. If you are purely focused on JavaScript and TypeScript and have no need for PHP or integrated database tools, WebStorm might offer a slightly leaner and more cost-effective solution. If this is the case, WebStorm can be a better choice for JavaScript and TypeScript-focused development.
 
 ## Ensure Correct Indentation and Code Completion
 
