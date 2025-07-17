@@ -1,5 +1,9 @@
 # Tech Tips and Dev Links
 
+## Static Code Analysis
+
+Static code analysis is great at finding formal errors like that. Start tag has wrong closing tag. Closing tag matches nothing. Rule-based linters can potentially find traps and antipatterns, but depending on your experience, personality, your tech stack and project requirements you might find default recommended rulesets contain mostly unhelpful rules triggering false positive warnings, while the real problems go unnoticed like the infamous dot prefixes of CSS classes that must be present in CSS and JavaScript code, while they must be omitted in HTML class name attributes.
+
 ## Recent AI Answers and Links (TODO: review, rephrase, sort)
 
 ### Ensure Latest Node Version in Jetbrains Terminal 
