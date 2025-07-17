@@ -96,6 +96,7 @@ https://g.co/gemini/share/8c6ea26002e9
      -  https://github.com/openmindculture/sw-IngoSCostTransparency
      -  https://github.com/openmindculture/ingo-steinke.de
      -  https://github.com/openmindculture/react-dataviz-demo
+     -  https://github.com/openmindculture/bookstack-reading-list-app
 - https://dev.to/ingosteinke/8-alternatives-to-ai-for-coding-and-creativity-26k3
 - https://dev.to/ingosteinke/where-is-the-vibe-in-vibe-coding-and-what-happened-to-music-monday-49ek
 - https://dev.to/ingosteinke/pure-css-parallax-perspective-beyond-landscape-images-24g2
