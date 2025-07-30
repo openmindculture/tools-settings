@@ -22,6 +22,10 @@ inxi is a full-featured command line system information tool that displays detai
  
 lshw (list hardware) is a command-line utility in Linux that provides detailed information about your system's hardware configuration like CPU model and speed, memory size, memory type, motherboard, BIOS, storage devices, network interfaces, display adapters etc.
 
+### List Hardware Details for a Specific Section e.g. Display
+
+- `sudo lshw -C display`
+
 ## Detect XDG Session Type (X vs. Wayland)
 
 - `echo $XDG_SESSION_TYPE`
@@ -32,4 +36,4 @@ lshw (list hardware) is a command-line utility in Linux that provides detailed i
 
 ## Further information
 
-Use vendor-specific GUI tools like Tuxedo control center to see additional system and software information.
+Use vendor-specific GUI tools like the System Reports app (System Information tab) Tuxedo control center to see additional system and software information. Some details, like serial numbers, should be hidden unless invoked by a privileged root user.
