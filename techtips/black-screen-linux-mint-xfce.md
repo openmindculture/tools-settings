@@ -43,7 +43,7 @@ Cons:
 - upgrade kernel
 - downgrade kernel
 - switch to default kernel
-- switch to vendor-provided kernel (e.g. 6.11.0-120029-tuxedo)
+- switch to vendor-provided kernel (e.g. 6.11.0-120029-tuxedo #29~24.04.1tux2)
 
 ## How to get Linux System Information
 - [get linux system information](./get-linux-system-information)
