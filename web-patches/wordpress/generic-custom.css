@@ -1,0 +1,59 @@
+/*
+Füge deinen eigenen CSS-Code nach diesem Kommentar hinter dem abschließenden Schrägstrich ein.
+
+Klicke auf das Hilfe-Symbol oben, um mehr zu erfahren.
+*/
+.broken_link, a.broken_link {
+    text-decoration: none !important;
+}
+.header #menu-start-header li.menu-item-10783:before { content: "\004d"; font-family: "iconvault";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    text-decoration: inherit;}
+/* Logo */
+#masthead .site-branding .site-title img {
+    width: 190px;
+    height: 90px !important;
+}
+@media (max-width: 991px) {
+    #masthead .site-branding .site-title img {
+        width: 108.578px !important;
+        height: 60px !important;
+    }
+}
+/* ENDE Logo */
+
+/* Tastaturnavigation der Untermenüs ermöglichen */
+#primary-menu .menu-item a:focus + .sub-menu {
+    display: block !important;
+    height: auto !important;
+    opacity: 1 !important;
+}
+
+/* Yoast SEO */
+.yoast-table-of-contents ul {
+    padding-inline-start: 17px;
+}
+.yoast-table-of-contents ul ul {
+    padding-inline-start: 15px;
+}
+.yoast-table-of-contents ul li a {
+    position: relative;
+    left: 0px;
+}
+.postid-12078 .yoast-table-of-contents ul ul ul{
+    display: none;
+}
+.yoast-table-of-contents>ul>li {
+    border-bottom: 1px solid rebeccapurple;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+}
+.yoast-table-of-contents>ul>li>a {
+    font-weight: bold;
+}

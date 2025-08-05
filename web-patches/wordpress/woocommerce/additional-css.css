@@ -1,0 +1,87 @@
+/* Reiter ausblenden */
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    display: none;
+}
+
+/* --- visuelle Verbesserungen, 18.10.2024 --- */
+
+/* Produktkacheln: mehr Abstand links vom Text: */
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product .price,
+.woocommerce ul.products li.product .wc-gzd-additional-info.tax-info,
+.woocommerce ul.products li.product .wc-gzd-additional-info.shipping-costs-info {
+    padding-left: 1rem;
+}
+/* Produktkacheln: auf Handy noch mehr Abstand: */
+@media (max-width: 767px) {
+    .woocommerce ul.products li.product .woocommerce-loop-product__title,
+    .woocommerce ul.products li.product .price,
+    .woocommerce ul.products li.product .wc-gzd-additional-info.tax-info,
+    .woocommerce ul.products li.product .wc-gzd-additional-info.shipping-costs-info {
+        padding-left: 2rem;
+    }
+    .woocommerce ul.products li.product .button {
+        margin-left: 1rem;
+    }
+    .woocommerce ul.products li.product .wc-gzd-additional-info.shipping-costs-info {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Produktkacheln: Versandkosten in schwarz und kleinerer Schriftgröße */
+.woocommerce ul.products li.product .wc-gzd-additional-info.shipping-costs-info a {
+    font-size: 17px;
+    color: #000000;
+}
+
+/* Newsletterformular: Schließen-Button zurechtrücken: */
+@media (min-width: 768px) {
+    #newsletter_popup .close {
+        right: calc(11% + 15px);
+    }
+}
+
+/* Produkte auf Handy nur noch einspaltig, um Überbreite der Seite zu verhindern: */
+@media (max-width: 767px) {
+    .elementor-products-grid ul.products.elementor-grid {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+}
+
+
+/* --- optionale visuelle Veränderungen --- */
+
+/* Button-Beschriftung "Ausführung wählen" bei Lieblingskombinationen soll in 1 Zeile passen: */
+.elementor-element-4acc387 .add_to_cart_button,
+.elementor-element-c825de6 .add_to_cart_button {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+
+/* --- funktionale Veränderungen --- */
+
+/* START Newsletterformular: Anzeige verzögern */
+#newsletter_popup[show="1"] {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    animation: 1s myexampleShowPopup;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myexampleShowPopup {
+    0% {
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        pointer-events: all;
+        visibility: visible;
+    }
+}
+/* ENDE Newsletterformular: Anzeige verzögern */

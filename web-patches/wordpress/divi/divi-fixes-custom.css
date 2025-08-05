@@ -1,0 +1,237 @@
+.et_pb_filterable_portfolio_grid .et_pb_portfolio_item, .et_pb_gallery_grid .et_pb_gallery_item {
+    display: block!important;
+}
+
+/* workarounds 2024  */
+
+body {
+    overflow-x: hidden;
+}
+
+/* customization 2024  */
+/*
+ * read-more sections
+ * class name .tc_mydivi__more_button also triggers JS click handler
+ * to toggle .tc_mydivi__more_content visibility
+ * of the next following expandable section
+ */
+
+.mydivi_more_content {
+    height: auto;
+    opacity: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .mydivi_more_content,
+    .mydivi_more_content * {
+        transition: height 1s, opacity 0.125s;
+    }
+}
+
+@media screen {
+    body:not(.no-js) .mydivi_more_content.initially-hidden {
+        /* display: none; */
+        height: 1px;
+        opacity: 0;
+    }
+
+    body:not(.no-js) .mydivi_more_content.initially-hidden * {
+        opacity: 0;
+        display: none;
+    }
+
+    body.no-js .mydivi_button_wrapper {
+        display: none;
+    }
+
+    .mydivi_button.hidden {
+        display: none;
+    }
+}
+
+@media print {
+    .mydivi_button_wrapper {
+        display: none;
+    }
+}
+
+.mydivi_button_wrapper:hover button,
+.mydivi_button_wrapper button:hover,
+.mydivi_button_wrapper button.mydivi_button:hover,
+.mydivi_button:hover {
+    background-color: #5ebce8;
+    cursor: pointer;
+}
+
+/* mark hidden section in editor views */
+.et-fb-iframe-ancestor .mydivi_more_content,
+.et_fb_edit_enabled .mydivi_more_content,
+.elementor-editor-active .mydivi_more_content,
+.block-editor .mydivi_more_content,
+body:not(.no-js) .et-fb-iframe-ancestor .mydivi_more_content.initially-hidden,
+body:not(.no-js) .et_fb_edit_enabled .mydivi_more_content.initially-hidden,
+body:not(.no-js) .elementor-editor-active .mydivi_more_content.initially-hidden,
+body:not(.no-js) .block-editor .mydivi_more_content.initially-hidden {
+    border: dashed 1px #aaaaaa;
+    display: block !important;
+    height: auto;
+    margin-top: 1px;
+    opacity: 1;
+    padding-bottom: 1px;
+    position: relative;
+}
+
+
+body:not(.no-js) .et-fb-iframe-ancestor .mydivi_more_content.initially-hidden *,
+body:not(.no-js) .et_fb_edit_enabled .mydivi_more_content.initially-hidden *,
+body:not(.no-js) .elementor-editor-active .mydivi_more_content.initially-hidden *,
+body:not(.no-js) .block-editor .mydivi_more_content.initially-hidden * {
+    display: revert;
+    opacity: 1;
+}
+
+.et-fb-iframe-ancestor .mydivi_more_content::before,
+.et_fb_edit_enabled .mydivi_more_content::before,
+.elementor-editor-active .mydivi_more_content::before,
+.block-editor .mydivi_more_content::before {
+    content: "hidden details";
+    display: inline-block;
+    position: absolute;
+    top: 8rem;
+    right: -1rem;
+    transform: rotate(90deg);
+    transform-origin: right;
+    font-size: 10px;
+    line-height: 1.75;
+    letter-spacing: 0.1rem;
+    padding: 0.25rem 0 0.5rem 0.2rem;
+    background-color: rgba(238, 238, 238, 0.5);
+    border: solid 1px #aaaaaa;
+    color: #333333;
+}
+
+.mydivi_layout_flex.et_pb_blurb_position_left .et_pb_blurb_content,
+.mydivi_layout_flex.et_pb_blurb_position_right .et_pb_blurb_content {
+    display: block;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+    .mydivi_layout_flex.et_pb_blurb_position_left .et_pb_blurb_content,
+    .mydivi_layout_flex.et_pb_blurb_position_right .et_pb_blurb_content {
+        flex-direction: column;
+    }
+}
+
+.mydivi_layout_flex.et_pb_blurb_position_left .et_pb_blurb_content > *,
+.mydivi_layout_flex.et_pb_blurb_position_right .et_pb_blurb_content > * {
+    display: block;
+    width: auto;
+}
+
+.mydivi_layout_flex.et_pb_blurb_position_left .et_pb_blurb_content .et_pb_main_blurb_image img {
+    max-width: 90%;
+    height: auto;
+}
+
+@media screen and (min-width: 981px) {
+    .mydivi_layout_wider .et_pb_row {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .mydivi_layout_wider .et_pb_row {
+        max-width: 1400px;
+    }
+    .mydivi_layout_wider .et_pb_blurb_container {
+        flex-grow: 1;
+    }
+}
+
+.mydivi_layout_wider .et_pb_blurb_content {
+    max-width: unset !important;
+}
+
+/* responsive layout in two columns on desktop */
+body:not(.no-js) .et-fb-iframe-ancestor .mydivi_more_content.initially-hidden .mydivi_layout_2cols,
+body:not(.no-js) .et_fb_edit_enabled .mydivi_more_content.initially-hidden .mydivi_layout_2cols,
+.mydivi_layout_2cols {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.mydivi_layout_2cols > * {
+    flex: 1 0 50%;
+    width: 50%;
+}
+
+.mydivi_layout_2cols > *:first-child:not(:last-child) {
+    padding-right: 0.25rem;
+}
+
+.mydivi_layout_2cols > *:first-child:last-child {
+    width: 100%;
+    flex: 1 0 100%;
+}
+
+@media screen and (max-width: 981px) {
+    .mydivi_layout_2cols {
+        flex-direction: column;
+    }
+
+    .mydivi_layout_2cols > * {
+        width: 100%;
+        flex: 1 0 100%;
+        padding-right: 0;
+    }
+}
+
+.mydivi_layout_2cols h3 {
+    display: block;
+}
+
+/* mark in editor views */
+.et-fb-iframe-ancestor .mydivi_layout_2cols > *,
+.et_fb_edit_enabled .mydivi_layout_2cols > *,
+.elementor-editor-active .mydivi_layout_2cols > *,
+.block-editor .mydivi_layout_2cols > * {
+    border-right: dashed 1px #cccccc;
+    border-bottom: dashed 1px #cccccc;
+    padding-bottom: 1px;
+}
+
+.mydivi_layout_icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.mydivi_layout_icons_max_500 {
+    max-width: 500px;
+}
+
+.mydivi_layout_icons > *:not(:last-child) {
+    margin-right: 0.25rem;
+}
+
+.mydivi_layout_icons a {
+    display: inline-block;
+}
+
+.mydivi_layout_icons img {
+    display: block;
+    height: auto;
+    max-height: 150px;
+    width: auto;
+}
+
+@media screen and (max-width: 300px) {
+    .mydivi_layout_icons img {
+        max-height: unset;
+        max-width: 100%;
+    }
+}

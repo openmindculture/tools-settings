@@ -1,0 +1,39 @@
+/* Visuelle Korekturen Januar 2024 */
+
+/* verhindere Überbreite durch zuviel Rand links neben Video: */
+
+@media (max-width: 1420px) {
+    .elementor-15 .elementor-element.elementor-element-f012345 > .elementor-element-populated {
+        margin-left: 0 !important;
+    }
+}
+
+/* Verhindere Verzerrung des Fotos: Höhe proportial zu festgelegter Höhe */
+@media (max-width: 767px) {
+    .elementor-15 .elementor-element.elementor-element-12345f7 img {
+        height: auto;
+    }
+}
+
+/* Korrigiere deplatzierte Dreiecksränder: */
+@media (max-width: 767px) {
+    .elementor-element-0c12ba3 .elementor-container > .elementor-row { /* blauer Bereich mit Foto */
+        height: 100%; /* ausreichende Höhe für Foto und Dreiecke sicherstellen */
+        padding-top: 0; /* ohne oberen Versatz zum Seitenanfang (Feb. 24) */
+        margin-bottom: -20px; /* Abstand unterhalb des Fotos vermeiden           */
+    }
+
+    .elementor-element-0c12ba3 .elementor-container > .elementor-row .elementor-image {
+        padding-top: 20%; /* Abstand zwischen CTA-Button und Foto sicherstellen */
+    }
+
+    .elementor-element-b23af12 > .elementor-container { /* logos row wrapper */
+        background: white; /* herausblitzenden blauen Hintergrund verdecken */
+    }
+}
+
+/* Korekturen Februar 2024 */
+/* Terminbutton(s) mobil anklickbar auch wenn von (durchsichtigem) Bild verdeckt */
+.elementor-widget-jet-button {
+    z-index: 400;
+}

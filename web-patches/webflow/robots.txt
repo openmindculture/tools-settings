@@ -1,0 +1,5 @@
+# Webflow -> site settings -> SEO -> robots.txt
+# only insert what to add to auto-generated robots.txt
+# change the example URL to the additional existing sudomain's sitemap URL:
+
+Sitemap: https://subdomain.example.com/sitemap.xml
