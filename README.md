@@ -104,7 +104,6 @@ See full discussion in this public prompt archive (TODO verify if that lasts) cr
 - TODO link more files from this very repository
 - Link some of my own recent, featured, or "best practice" repositories, public or not, e.g.
      -  [https://github.com/openmindculture/intellij-orange-rain-light-theme](https://github.com/openmindculture/intellij-orange-rain-light-theme)
-     -  [https://github.com/openmindculture/gist-patches](https://github.com/openmindculture/gist-patches)
      -  [https://github.com/openmindculture/tools-settings](https://github.com/openmindculture/tools-settings)
      -  [https://github.com/openmindculture/kleiderordnung-berlin](https://github.com/openmindculture/kleiderordnung-berlin)
      -  [https://github.com/openmindculture/sw-IngoSCostTransparency](https://github.com/openmindculture/sw-IngoSCostTransparency)
