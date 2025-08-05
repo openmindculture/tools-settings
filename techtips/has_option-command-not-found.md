@@ -24,7 +24,7 @@ xinitdir="/etc/X11/xinit"
 In there is `xinitrc` which runs `/etc/X11/Xsession`.
 That fixed the error on my machine.
 
-https://github.com/canonical/lightdm/issues/410
+[https://github.com/canonical/lightdm/issues/410](https://github.com/canonical/lightdm/issues/410)
 
 ### Alternative Fix Adding the Missing has_option Function
 
@@ -53,7 +53,7 @@ EOF
 
 > Based on some additional searches that I've done, what seems to me to be the root cause of this issue has been discussed in the following Debian bug, reported about 2 years ago (in June 2020) by Jan Rauberg:
 > #963059 - x11-common: false linebreak in 20x11-common_process-args function has_option - Debian Bug report logs
-> https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=963059
+> [https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=963059](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=963059)
 > ... where Jan Rauberg wrote, among other things, the following,:
 > "(...) * What led up to the situation?
 > x2go session ignores .Xresource configuration.
@@ -71,4 +71,4 @@ should be
 if [ "${OPTIONS#*$1}" != "$OPTIONS" ]; then
 ```
 
-https://ubuntu-mate.community/t/xsession-d-errors-how-to-fix-line-has-option-command-not-found/25673/2
+[https://ubuntu-mate.community/t/xsession-d-errors-how-to-fix-line-has-option-command-not-found/25673/2](https://ubuntu-mate.community/t/xsession-d-errors-how-to-fix-line-has-option-command-not-found/25673/2)

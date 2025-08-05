@@ -11,3 +11,7 @@ https://\<user.github.io\>/\<repository\>/
 
 for example:
 https://openmindculture.github.io/tools-settings/
+
+## Automatically Link URLs
+
+"References to URLs, issues, pull requests, and commits are automatically shortened and converted into links," but that does not work automatically on pages.github.com.

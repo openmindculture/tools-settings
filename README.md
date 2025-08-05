@@ -102,19 +102,20 @@ See full discussion in this public prompt archive (TODO verify if that lasts) cr
 
 - TODO link more public discussions, blog posts, tutorials,
 - TODO link more files from this very repository
-- TODO link my own recent, featured, or "best practice" repositories, public or not, e.g.
-     -  https://github.com/openmindculture/intellij-orange-rain-light-theme
-     -  https://github.com/openmindculture/gist-patches
-     -  https://github.com/openmindculture/tools-settings
-     -  https://github.com/openmindculture/kleiderordnung-berlin
-     -  https://github.com/openmindculture/sw-IngoSCostTransparency
-     -  https://github.com/openmindculture/ingo-steinke.de
-     -  https://github.com/openmindculture/react-dataviz-demo
-     -  https://github.com/openmindculture/bookstack-reading-list-app
-- https://dev.to/ingosteinke/8-alternatives-to-ai-for-coding-and-creativity-26k3
-- https://dev.to/ingosteinke/where-is-the-vibe-in-vibe-coding-and-what-happened-to-music-monday-49ek
-- https://dev.to/ingosteinke/pure-css-parallax-perspective-beyond-landscape-images-24g2
-- https://dev.to/ingosteinke/css-hasparent-selectors-287c
+- Link some of my own recent, featured, or "best practice" repositories, public or not, e.g.
+     -  [https://github.com/openmindculture/intellij-orange-rain-light-theme](https://github.com/openmindculture/intellij-orange-rain-light-theme)
+     -  [https://github.com/openmindculture/gist-patches](https://github.com/openmindculture/gist-patches)
+     -  [https://github.com/openmindculture/tools-settings](https://github.com/openmindculture/tools-settings)
+     -  [https://github.com/openmindculture/kleiderordnung-berlin](https://github.com/openmindculture/kleiderordnung-berlin)
+     -  [https://github.com/openmindculture/sw-IngoSCostTransparency](https://github.com/openmindculture/sw-IngoSCostTransparency)
+     -  [https://github.com/openmindculture/ingo-steinke.de](https://github.com/openmindculture/ingo-steinke.de)
+     -  [https://github.com/openmindculture/react-dataviz-demo](https://github.com/openmindculture/react-dataviz-demo)
+     -  [https://github.com/openmindculture/bookstack-reading-list-app](https://github.com/openmindculture/bookstack-reading-list-app)
+  
+- [Alternatives to AI for coding and creativity](https://dev.to/ingosteinke/8-alternatives-to-ai-for-coding-and-creativity-26k3)
+- [Where is the vibe in "vibe coding" and what happened to "Music Monday"?](https://dev.to/ingosteinke/where-is-the-vibe-in-vibe-coding-and-what-happened-to-music-monday-49ek) on DEV.to
+- [Pure CSS parallax perspective scrolling effect beyond landscape images](https://dev.to/ingosteinke/pure-css-parallax-perspective-beyond-landscape-images-24g2)
+- [CSS has parent selectors](https://dev.to/ingosteinke/css-hasparent-selectors-287c)
 - [Personalizing AI Coding Assistants with Git and RAG](https://g.co/gemini/share/8c6ea26002e9)
 - [Disable YouTube Auto-Translation Audio](https://g.co/gemini/share/35a4831e5ab2)
 
