@@ -1,14 +1,28 @@
 # tools-settings
+
 Tools, Settings, Code Snippets, and notes as a knowledge base for personal use.
-depends on the operating system, only install to fix actual issues!
-Mainly used an tested on Linux (Ubuntu / mate / mint / budgie).
-Visual Studio Code settings are compatible to VS Codium settings.
+
+Public URL: [https://openmindculture.github.io/tools-settings/](https://openmindculture.github.io/tools-settings/)
 
 > If it ain't broke, don't fix it.
+
+Don't blindly copy, paste, or trust anything. Configurations, recommendations, and fixes highly depends on the operating system, version, and configuration. Only install anything to fix actual issues!
+Mainly used and tested on Linux (Ubuntu / mate / mint / budgie).
+Visual Studio Code settings are compatible to VS Codium settings.
 
 ## Knowledge Base + Code Library
 
 These notes, code snippets, and links to documentation, tutorials, and repositories can serve as a partial personal knowledge base or library, possibly as public version to be found using search engines, or for training local or public LLM-based AI assistants. This can be cross-linked with tutorials and blog posts. Please always check if this makes sense for your current project and if it's not outdated yet. (It probably is!)
+
+- [Black Screen after Xfce Login in Linux Mint issue](techtips/black-screen-linux-mint-xfce.md)
+- [Disable IPv6 in Linux Mint or Ubuntu](techtips/disable-ipv6.md)
+- How to [get Linux system information](techtips/get-linux-system-information.md)
+- How to [fix has_option command not found error in X11 xsession-errors](techtips/has_option-command-not-found.md)
+- How to [publish GitHub pages](techtips/publish-github-page.md)
+- [Ubuntu/Mint public WiFi](techtips/ubuntu-mint-public-wifi.md) information
+- Various other [techtips](techtips.md)
+
+Even more tech tips and notes:
 
 ### Recall Inspiration 
 
@@ -84,7 +98,7 @@ Limited Direct Knowledge Base Integration: Similar to individual Copilot, direct
 
 See full discussion in this public prompt archive (TODO verify if that lasts) created by sharing a gemini conversation as a public link:
 
-https://g.co/gemini/share/8c6ea26002e9
+- [Personalizing AI Coding Assistants with Git](https://g.co/gemini/share/8c6ea26002e9) (shared Google Gemini AI assistant discussion, July 2025)
 
 - TODO link more public discussions, blog posts, tutorials,
 - TODO link more files from this very repository
@@ -125,13 +139,13 @@ It's automatically deleted from your Gemini Apps Activity based on your retentio
 You delete it from your pinned and recent chats.
 
 ## settings
-bashrc.d         includes for bashrc / profile
-bashrc.d/prompt  minimalistic git prompt
-bashrc.d/alias   useful aliases
+- `bashrc.d`         includes for bashrc / profile
+- `bashrc.d/prompt`  minimalistic git prompt
+- `bashrc.d/alias`   useful aliases
 
 ## tools
-install.sh	install tools, autodetect yum/apt/port/brew
-tomp3.sh        extract audio from mp4/webm files using ffmpeg
-touchinit.sh	re-initialize touchpad (workaround; use as launcher)
-vpnlauncher.sh	start open VPN session (use as launcher)
+- `install.sh`	install tools, autodetect yum/apt/port/brew
+- `tomp3.sh`        extract audio from mp4/webm files using ffmpeg
+- `touchinit.sh`	re-initialize touchpad (workaround; use as launcher)
+- `vpnlauncher.sh`	start open VPN session (use as launcher)
 

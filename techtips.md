@@ -1,5 +1,12 @@
 # Tech Tips and Dev Links
 
+- [Prevent Black Screen after Xfce Login in Linux Mint](techtips/black-screen-linux-mint-xfce.md)
+- [Disable IPv6 in Linux Mint or Ubuntu](techtips/disable-ipv6.md)
+- How to [get Linux system information](techtips/get-linux-system-information.md)
+- How to [fix has_option command not found error in X11 xsession-errors](techtips/has_option-command-not-found.md)
+- How to [publish GitHub pages](techtips/publish-github-page.md)
+- [Ubuntu/Mint public WiFi](techtips/ubuntu-mint-public-wifi.md) information
+
 ## Static Code Analysis
 
 Static code analysis is great at finding formal errors like that. Start tag has wrong closing tag. Closing tag matches nothing. Rule-based linters can potentially find traps and antipatterns, but depending on your experience, personality, your tech stack and project requirements you might find default recommended rulesets contain mostly unhelpful rules triggering false positive warnings, while the real problems go unnoticed like the infamous dot prefixes of CSS classes that must be present in CSS and JavaScript code, while they must be omitted in HTML class name attributes.
