@@ -4,6 +4,8 @@ Tools, Settings, Code Snippets, and notes as a knowledge base for personal use.
 
 Public URL: [https://openmindculture.github.io/tools-settings/](https://openmindculture.github.io/tools-settings/)
 
+Source: https://github.com/openmindculture/tools-settings
+
 > If it ain't broke, don't fix it.
 
 Don't blindly copy, paste, or trust anything. Configurations, recommendations, and fixes highly depends on the operating system, version, and configuration. Only install anything to fix actual issues!
