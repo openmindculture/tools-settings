@@ -45,6 +45,15 @@ Cons:
 - switch to default kernel
 - switch to vendor-provided kernel (e.g. 6.11.0-120029-tuxedo #29~24.04.1tux2)
 
+## e) find and fix potential configuration errors or incompatibilities
+
+- see `~/.xsession-errors`
+  - delete or rename existing error file to remove irrelevant noise
+  - reproduce the error
+  - check the file again: `tail ~/.xsession-errors`
+
+- [has_option commannd not found](has_option-command-not-found.md)
+
 ## How to get Linux System Information
 - [get linux system information](./get-linux-system-information)
 
