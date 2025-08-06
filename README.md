@@ -18,9 +18,11 @@ These notes, code snippets, and links to documentation, tutorials, and repositor
 
 - [Black Screen after Xfce Login in Linux Mint issue](techtips/black-screen-linux-mint-xfce.md)
 - [Disable IPv6 in Linux Mint or Ubuntu](techtips/disable-ipv6.md)
+- [EJS Modules vs. CJS require](techtips/ejs-modules-vs-cjs-require.md)
 - How to [get Linux system information](techtips/get-linux-system-information.md)
 - How to [fix has_option command not found error in X11 xsession-errors](techtips/has_option-command-not-found.md)
 - How to [publish GitHub pages](techtips/publish-github-page.md)
+- [npm error debug](techtips/npm-error-debug.md)
 - [Ubuntu/Mint public WiFi](techtips/ubuntu-mint-public-wifi.md) information
 - Various other [techtips](techtips.md)
 
