@@ -43,3 +43,49 @@ Wünschenswert:
 
 Schlagworte
 Front End Typescript ReactJS HTML CSS Clean Code Unit Testing Prozessoptimierung Devops Web Entwicklung Rekrutierung Nexus 1000V Software Architecture Softwareentwicklung User Stories Figma Refactoring
+
+## Front End Developer (Autodesk)
+
+The position is based in Berlin (Hybrid)
+
+Responsibilities
+
+Write clean, reliable and secure code in different languages and technologies (mostly Typescript, JavaScript, React, HTML)
+
+Develop and maintain unit tests and E2E tests; strive to automate testing as much as possible
+
+Help divide large features into clear, manageable tasks
+
+Align activities with stakeholders, inform technical decisions and help lead projects to completion
+
+Actively collaborate within and outside of the team, bringing new ideas and challenging the status quo
+
+Participate in code reviews to ensure new code conforms to highest standards
+
+Understand, embrace, and promote agile methodologies, principles, and values within the team
+
+Minimum Qualifications
+
++3 years' experience as Front End Developer
+
+Strong experience with TypeScript and modern front-end frameworks (e.g., React)
+
+Skilled in building responsive, performant web interfaces
+
+Comfortable integrating with REST APIs
+
+Clean, maintainable coding practices and version control (Git)
+
+Preferred Qualifications
+
+Experience with Python (e.g., for backend or scripting)
+
+Familiarity with data visualization/plotting libraries (e.g., Recharts, Chart.js, Plotly, VTK)
+
+Understanding of testing, CI/CD, and accessibility best practices
+
+Collaborate with Product Manager, Experience Designers and software developers to explore new capabilities, assess usability and constraints and ensure feasibility.
+
+Experience with Docker and container-based development/deployment
+
+Familiarity with modern front-end tooling and deployment strategies (e.g., Vite, Tailwind CSS, PostCSS, esbuild)

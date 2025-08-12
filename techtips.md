@@ -7,6 +7,7 @@
 - How to [fix has_option command not found error in X11 xsession-errors](techtips/has_option-command-not-found.md)
 - How to [publish GitHub pages](techtips/publish-github-page.md)
 - [npm error debug](techtips/npm-error-debug.md)
+- [pin nvm node version](techtips/pin-nvm-node-version.md)
 - [Ubuntu/Mint public WiFi](techtips/ubuntu-mint-public-wifi.md) information
 
 ## Static Code Analysis
