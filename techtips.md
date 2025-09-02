@@ -49,11 +49,33 @@ Source: [https://help.webflow.com/hc/en-us/articles/33961307099027-Intro-to-the-
 
 ## Show Debugging Output in the Browser in WordPress
 
+Add the following code in `wp-config.php` (not in `functions.php`):
+
 ```
 define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_DISPLAY', true );
 @ini_set( 'display_errors', 1 );
 ```
+
+In a local docker setup:
+
+`docker ps` shows the WordPress container ID like bef44f642c24. In most cases, you only need to type the first letters that distinguish it clearly from all other running containers.
+
+Edit the config file in the container (not recommended):
+
+```
+docker exec -it bef44 bash
+apt update && yes | apt install vim
+vi wp-config.php
+```
+
+Then you can _simply_ use the _usual_ vi commands and modes like dd, shift+o, or Esc wq! to (over)write and quit (save and exit) or Esc q! to quit without saving.
+
+That's not recommended as the editor might not persist beyond the current session, and it has been omitted from the official wordpress:latest Docker image by design to keep the image size small and increase security.
+
+The recommended way to edit files is to mount your `wp-content` directory as a volume in `docker-compose.yaml`, and then edit the files from on the host machine in the preferred editor/IDE.
+
+Printing debug information to the browser is not recommended for security reasons either, so the WP_DEBUG code should be removed when no longer needed. 
 
 ## Links
 
