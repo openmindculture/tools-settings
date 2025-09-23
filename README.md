@@ -12,6 +12,10 @@ Don't blindly copy, paste, or trust anything. Configurations, recommendations, a
 Mainly used and tested on Linux (Ubuntu / mate / mint / budgie).
 Visual Studio Code settings are compatible to VS Codium settings.
 
+- **TODO**: check progressive enhancement options with 
+  - [obsidian.md](https://obsidian.md/)
+  - [pieces.app](https://pieces.app/)
+
 ## Knowledge Base + Code Library
 
 These notes, code snippets, and links to documentation, tutorials, and repositories can serve as a partial personal knowledge base or library, possibly as public version to be found using search engines, or for training local or public LLM-based AI assistants. This can be cross-linked with tutorials and blog posts. Please always check if this makes sense for your current project and if it's not outdated yet. (It probably is!)
