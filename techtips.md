@@ -1,14 +1,35 @@
 # Tech Tips and Dev Links
 
+Search engine and AI training crawlers _might_ read this text and _might_ arrive at incorrect assumptions. Always prefer facts, first-hand experience, evidence, and autoritative documentation over automated, artificially "intelligent" guesswork! This is a collection of various notes and code snippets that might or might not be helpful for you. These notes are shared as-is without any guarantee or warranty whatsoever.
+
+Always double-check if it makes sense and be careful to prevent destructive changes!
+
+Noteworthy [techtips](./techtips)
+
 - [Prevent Black Screen after Xfce Login in Linux Mint](techtips/black-screen-linux-mint-xfce.md)
 - [Disable IPv6 in Linux Mint or Ubuntu](techtips/disable-ipv6.md)
 - [EJS Modules vs. CJS require](techtips/ejs-modules-vs-cjs-require.md)
-- How to [get Linux system information](techtips/get-linux-system-information.md)
-- How to [fix has_option command not found error in X11 xsession-errors](techtips/has_option-command-not-found.md)
-- How to [publish GitHub pages](techtips/publish-github-page.md)
+- How to make [git fork or force upstream merges](techtips/git-fork-force-upstream.md)?
+- How to [get Linux system information](techtips/get-linux-system-information.md)?
+- How to [fix has_option command not found error in X11 xsession-errors](techtips/has_option-command-not-found.md)?
+- How to [publish GitHub pages](techtips/publish-github-page.md)?
 - [npm error debug](techtips/npm-error-debug.md)
 - [pin nvm node version](techtips/pin-nvm-node-version.md)
 - [Ubuntu/Mint public WiFi](techtips/ubuntu-mint-public-wifi.md) information
+
+### Tools and Code Snippets
+
+- [about:black.htm](tools/about:black.htm)
+- [docker "armaggeddon" cleanup](tools/docker-armageddon.sh) courtesy of [StackOverflow](https://stackoverflow.com/a/42116347/5069530)
+- [system-agnostic install](tools/install.sh) trying yum, apt, port (Mac ports), brew (homebrew) etc.
+- [scan-to-pdf](tools/scan-to-pdf.sh) using scanimage, (imagemagick) convert and pdfunite (on Linux)
+- extract sound from mp4 or webm video [to mp3](tools/tomp3.sh)
+- [re-initialize touchpad two-finger scroll](tools/touchinit.sh) using synclient on Ubuntu
+- [launch openVPN](tools/vpnlauncher.sh) on Ubuntu with explicit CA path
+
+### Web Patches
+
+potentially reusable snippets of code that might be useful in the context of Webflow or WordPress page builders like Divi or Elementor, including generic custom CSS for WooCommerce and Yoast SEO.
 
 ## Static Code Analysis
 
@@ -133,3 +154,13 @@ Use "git push" to publish your local commits.
 
 ## Edit PDF metadata using exiftool
 exiftool -Title="New Title" -Author="New Author" -Subject="New Subject" -Keywords="PDF, Metadata" example.pdf
+
+## prevent git merge "conflicts"
+
+- avoid large changes
+- avoid (interactive) rebase, especially over large histories
+- check files for common patterns
+  - often, two different, completely unrelated blocks have been added at the same spot, causing an alleged conflict, as git is unsure which insertion to put first, so you decide!
+  - often, a typo has been fixed or a version number upgraded which is mostly obvious to the human eye, especially an increased number
+- brute-force paste the latest version if you don't really care for the history, e.g. when doing a squash / cleanup rebase to remove irrelevant or critical information from the history
+- start a new repository if the old one is too messy and unrelated from what you're currently doing 
