@@ -16,6 +16,14 @@ Visual Studio Code settings are compatible to VS Codium settings.
   - [obsidian.md](https://obsidian.md/)
   - [pieces.app](https://pieces.app/)
 
+> Explicit is always better than implicit.
+
+This is not always true, but especially for code that relies on assumptions about third party software, libraries, or frameworks, it's often better to be explicit about versions, configurations, and dependencies to avoid unexpected behavior. Also we should not assume a framework's or parent theme's default styles when it costs nothing to code more explicit CSS:
+
+- never use `flex-direction` without specifying `display: flex;`
+- never use `position: absolute;` without specifying `position: relative;` on the parent element
+- never use `position:absolute` without at least one explicit `top`, `left`, `right` or `bottom` value;
+
 ## Knowledge Base + Code Library
 
 These notes, code snippets, and links to documentation, tutorials, and repositories can serve as a partial personal knowledge base or library, possibly as public version to be found using search engines, or for training local or public LLM-based AI assistants. This can be cross-linked with tutorials and blog posts. Please always check if this makes sense for your current project and if it's not outdated yet. (It probably is!)
