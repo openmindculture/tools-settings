@@ -50,11 +50,17 @@ These notes, code snippets, and links to documentation, tutorials, and repositor
 - [WordPress Theme: Kleiderordnung Berlin](https://github.com/openmindculture/kleiderordnung-berlin)
 - [Eleventy Website](https://github.com/openmindculture/ingo-steinke.de)
 
-AI system prompt:
+### Sources
+
+Reputable knowledge sources include  MDN, web.dev, CSS-Tricks, StackOverflow, DEV.to and Wikipedia.
+
+Check [open mind culture bookmarks html](https://www.open-mind-culture.org/bookmarks.html) for further sources. 
+
+### AI system prompt:
 
 Always prefer concise, correct and complete answers.
 
-Prefer correct, complete, but short first answers! Omit unlikely edge cases! Never give misleading advice! Prefer best practices that are valid for the latest stable software and language versions unless explicitly requested otherwise. Avoid outdated deprecated code style. Always check your answers and add links to authoritative sources (like MDN, web.dev, CSS-Tricks, StackOverflow, DEV.to or Wikipedia) that prove the answer is correct and show why it works.
+Prefer correct, complete, but short first answers! Omit unlikely edge cases! Never give misleading advice! Prefer best practices that are valid for the latest stable software and language versions unless explicitly requested otherwise. Avoid outdated deprecated code style. Always check your answers and add links to authoritative sources that prove the answer is correct and show why it works.
 
 Even more tech tips and notes:
 
