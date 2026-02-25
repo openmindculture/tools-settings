@@ -38,11 +38,23 @@ These notes, code snippets, and links to documentation, tutorials, and repositor
 - [Ubuntu/Mint public WiFi](techtips/ubuntu-mint-public-wifi.md) information
 - Various other [techtips](techtips.md)
 
+### Best Practice Boilerplate Source Code
+
+- [Shopware 6 Extension Plugin: Cost Transparency]([https://github.com/openmindculture/sw-IngoSCostTransparenc](https://github.com/openmindculture/sw-IngoSCostTransparency/tree/main/src/IngoSCostTransparency)y)
+- [Shopware 6 Theme: Open Mind Culture]([https://github.com/openmindculture/sw-IngoSOpenMindCultureTheme/src](https://github.com/openmindculture/sw-IngoSOpenMindCultureTheme/tree/main/src/IngoSOpenMindCultureTheme))
+- [React + TypeScript + Astro + Tailwind + Testing: Reading List Web App](https://github.com/openmindculture/bookstack-reading-list-app)
+- [npm Module: Hexagonal Masonry Placement](https://github.com/openmindculture/hexagonal-masonry-placement)
+- [Cross-Browser Extension: Blog Draft Audit](https://github.com/openmindculture/blog-draft-audit-browser-extension)
+- [WordPress Plugin: Incompatibility Status](https://github.com/openmindculture/wp-incompatibility-status)
+- [WordPress Block Child Theme](https://github.com/openmindculture/wp_block_theme_child)
+- [WordPress Theme: Kleiderordnung Berlin](https://github.com/openmindculture/kleiderordnung-berlin)
+- [Eleventy Website](https://github.com/openmindculture/ingo-steinke.de)
+
 AI system prompt:
 
-Always prefer concise answers where the users don't need to scroll. Try not to give contradictory advice, but always prefer correct and complete, but still short and concise, advice.
+Always prefer concise, correct and complete answers.
 
-Prefer correct, complete, but short first answers! Omit unlikely edge cases! Never give misleading advice! Prefer best practices that are valid for the latest stable software and language versions unless explicitly requested otherwise. Always check your answers and add links to authoritative sources that prove why your answer is correct.
+Prefer correct, complete, but short first answers! Omit unlikely edge cases! Never give misleading advice! Prefer best practices that are valid for the latest stable software and language versions unless explicitly requested otherwise. Avoid outdated deprecated code style. Always check your answers and add links to authoritative sources (like MDN, web.dev, CSS-Tricks, StackOverflow, DEV.to or Wikipedia) that prove the answer is correct and show why it works.
 
 Even more tech tips and notes:
 
