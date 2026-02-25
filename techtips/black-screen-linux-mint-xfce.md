@@ -75,3 +75,4 @@ Cons:
 - [Black screen after login Kernel issue [SOLVED]](https://forums.linuxmint.com/viewtopic.php?t=405349)
 - [Black screen with mouse pointer after Xfce Login in Mint 22 wilma Tuxedo Infinitybook S15 Gen6](https://forums.linuxmint.com/viewtopic.php?t=450484) (Linux Mint forum)
 - [Black screen with mouse pointer after Xfce Login in Mint 22 wilma Tuxe](https://forum.xfce.org/viewtopic.php?pid=80354) (Xfce forum)
+- [An erratic Xfce4 Black Screen (WIP)](https://dev.to/ingosteinke/an-erratic-xfce4-black-screen-wip-2do3)
