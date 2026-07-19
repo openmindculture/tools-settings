@@ -41,17 +41,19 @@ These notes, code snippets, and links to documentation, tutorials, and repositor
 - [Ubuntu/Mint public WiFi](techtips/ubuntu-mint-public-wifi.md) information
 - Various other [techtips](techtips.md)
 
-### Best Practice Boilerplate Source Code
+### Best Practice Boilerplate Source Code Repositories with Notes and Documentation (WIP)
 
 - [Shopware 6 Extension Plugin: Cost Transparency]([https://github.com/openmindculture/sw-IngoSCostTransparenc](https://github.com/openmindculture/sw-IngoSCostTransparency/tree/main/src/IngoSCostTransparency)y)
 - [Shopware 6 Theme: Open Mind Culture]([https://github.com/openmindculture/sw-IngoSOpenMindCultureTheme/src](https://github.com/openmindculture/sw-IngoSOpenMindCultureTheme/tree/main/src/IngoSOpenMindCultureTheme))
 - [React + TypeScript + Astro + Tailwind + Testing: Reading List Web App](https://github.com/openmindculture/bookstack-reading-list-app)
+- [React Native + TypeScript + Expo + Radon: Bookstack Native App](https://github.com/openmindculture/bookstack-native-app)
 - [npm Module: Hexagonal Masonry Placement](https://github.com/openmindculture/hexagonal-masonry-placement)
 - [Cross-Browser Extension: Blog Draft Audit](https://github.com/openmindculture/blog-draft-audit-browser-extension)
-- [WordPress Plugin: Incompatibility Status](https://github.com/openmindculture/wp-incompatibility-status)
-- [WordPress Block Child Theme](https://github.com/openmindculture/wp_block_theme_child)
-- [WordPress Theme: Kleiderordnung Berlin](https://github.com/openmindculture/kleiderordnung-berlin)
+- [Device Detection](https://github.com/openmindculture/device-detection-page)
 - [Eleventy Website](https://github.com/openmindculture/ingo-steinke.de)
+- [WordPress Block Child Theme](https://github.com/openmindculture/wp_block_theme_child)
+- [WordPress Plugin: Incompatibility Status](https://github.com/openmindculture/wp-incompatibility-status)
+- [WordPress Theme: Kleiderordnung Berlin](https://github.com/openmindculture/kleiderordnung-berlin)
 
 ### Sources
 
