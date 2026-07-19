@@ -6,7 +6,9 @@ Public URL: [https://openmindculture.github.io/tools-settings/](https://openmind
 
 Source: https://github.com/openmindculture/tools-settings
 
-> If it ain't broke, don't fix it.
+Further reading: [Tech Tips and Dev Links (./techtips.md)](./techtips.md)
+
+> If it ain't broke, don't fix it. Use code with caution.
 
 Don't blindly copy, paste, or trust anything. Configurations, recommendations, and fixes highly depends on the operating system, version, and configuration. Only install anything to fix actual issues!
 Mainly used and tested on Linux (Ubuntu / mate / mint / budgie).
