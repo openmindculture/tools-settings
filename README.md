@@ -15,6 +15,7 @@ Visual Studio Code settings are compatible to VS Codium settings.
 - **TODO**: check progressive enhancement options with 
   - [obsidian.md](https://obsidian.md/)
   - [pieces.app](https://pieces.app/)
+  - degoogle: migrate notes from Google Keep to NextCloud and/or this repository
 
 > Explicit is always better than implicit.
 

@@ -6,37 +6,64 @@ Always double-check if it makes sense and be careful to prevent destructive chan
 
 Noteworthy [techtips](./techtips)
 
+- [A bash/shell tips collection](techtips/a-bash-shell-tips-collection.md)
 - [Android Soft Keyboard, Text Zoom etc.](techtips/android-soft-keyboard-etc.md)
-- [Prevent Black Screen after Xfce Login in Linux Mint](techtips/black-screen-linux-mint-xfce.md)
+- [Apple App Store, TestFlight, Virtual Mac for App Development](techtips/apple-test-flight-virtual-mac.md)
+- [CSS links in paranthesis](techtips/css-links-in-paranthesis.md)
 - [Disable IPv6 in Linux Mint or Ubuntu](techtips/disable-ipv6.md)
+- [DMARK + DKIM E-Mail Security](techtips/dmarc-dkim-email-security.md)
 - [EJS Modules vs. CJS require](techtips/ejs-modules-vs-cjs-require.md)
-- How to make [git fork or force upstream merges](techtips/git-fork-force-upstream.md)?
+- [Emulate CSS Media Type Print in Firefox Browser Dev Tools and in Chrome](techtips/devtools-emulate-media-type-print-css.md)
+- [Fix Faux-Grid Firefox Height Issue](techtips/faux-grid-firefox-height-issue.md)
+- [git: merge or rebase, fork or force upstream merges](techtips/git-fork-force-upstream.md)?
 - How to [get Linux system information](techtips/get-linux-system-information.md)?
 - How to [fix has_option command not found error in X11 xsession-errors](techtips/has_option-command-not-found.md)?
 - How to [publish GitHub pages](techtips/publish-github-page.md)?
+- [Office/Excel/Google Sheets Tips](techtips/office-excel-google-sheets-tips.md) like clickable URL column
 - [npm error debug](techtips/npm-error-debug.md)
 - [pin nvm node version](techtips/pin-nvm-node-version.md)
+- [Prevent Black Screen after Xfce Login in Linux Mint](techtips/black-screen-linux-mint-xfce.md)
+- [Throttle Website Access based on Domain Name](techtips/throttle-website-by-domain.md)
 - [Ubuntu/Mint public WiFi](techtips/ubuntu-mint-public-wifi.md) information
+- [vi (WIP)](techtips/vi)
+- [WordPress in Docker and WordPress Development in General](techtips/wordpress-in-docker.md)
+
+### Software Recommendations
+
+- [AI as a Service](techtips/ai-artificial-intelligence-llm-as-a-service.md)
+- [Cross-Browser Testing Services (BrowserStack vs. SauceLabs, TestingBot, Browserling etc.)](techtips/cross-browser-testing-services.md)
 
 ### Tools and Code Snippets
 
 - [about:black.htm](tools/about:black.htm)
+- (bookmarks with focused ecosia form see openmindculture theme repository)
 - [docker "armaggeddon" cleanup](tools/docker-armageddon.sh) courtesy of [StackOverflow](https://stackoverflow.com/a/42116347/5069530)
 - [system-agnostic install](tools/install.sh) trying yum, apt, port (Mac ports), brew (homebrew) etc.
 - [scan-to-pdf](tools/scan-to-pdf.sh) using scanimage, (imagemagick) convert and pdfunite (on Linux)
 - extract sound from mp4 or webm video [to mp3](tools/tomp3.sh)
 - [re-initialize touchpad two-finger scroll](tools/touchinit.sh) using synclient on Ubuntu
 - [launch openVPN](tools/vpnlauncher.sh) on Ubuntu with explicit CA path
+- [New tab home page in Chromium on Linux](techtips/new-tab-homepage-chromium-linux.md)
+- [Overwidth Detection and over-height using JavaScript in Developer Tools (dev tools)](techtips/overwidth-detection-and-height.md)
 
 ### Web Patches
 
-potentially reusable snippets of code that might be useful in the context of Webflow or WordPress page builders like Divi or Elementor, including generic custom CSS for WooCommerce and Yoast SEO.
+potentially reusable snippets of code that might be useful in the context of Webflow or WordPress page builders like Divi or Elementor, including generic custom CSS for WooCommerce and Yoast SEO:
+
+- [web-patches](./web-patches/)
+
+### Dev Tools Trickery
+
+DevTools collapses and thus hides overridden declarations by default. You have to expand the "N more rules" or similar collapsed section to see them with strikethrough. That's a real, specific behavior that actually explains why someone might not see a rule even when it's there.
 
 ## Static Code Analysis
 
 Static code analysis is great at finding formal errors like that. Start tag has wrong closing tag. Closing tag matches nothing. Rule-based linters can potentially find traps and antipatterns, but depending on your experience, personality, your tech stack and project requirements you might find default recommended rulesets contain mostly unhelpful rules triggering false positive warnings, while the real problems go unnoticed like the infamous dot prefixes of CSS classes that must be present in CSS and JavaScript code, while they must be omitted in HTML class name attributes.
 
-## Recent AI Answers and Links (TODO: review, rephrase, sort)
+- use code analysis and recommendations in your IDE and/or `npm test` (or `composer test`) build step
+- ask AI to "find problems" in code snippets (it is often enough to paste only one class or method)
+
+## Recent Research, (AI) Answers and Links (TODO: review, rephrase, sort)
 
 ### Ensure Latest Node Version in Jetbrains Terminal 
 
@@ -48,12 +75,6 @@ To configure PhpStorm's terminal to always use the latest nvm Node.js version wi
 
 This ensures nvm is sourced and the latest Node.js version is automatically activated in PhpStorm's terminal.
 Click OK to save and restart the terminal inside PhpStorm.
-
-## Coding Custom Blocks in WordPress
-
-Custom blocks need funktionally redundant code both in PHP (for rendering to the frontend) as well as in JavaScript (React component for the block editor).
-
-Custom Blocks mit Custom Markup!!! PoC KO? weil Shortcode Block unreliable (how could it just suddenly stop working altogether, how can it be so easy to break, and why wouldn't Google or AI show easy fixes for common reasons?, has no preview (although I might have faked one with CSS ::after) and no descendants; block variations are limited, don't support custom markup and no arbitratry descendants! Tech TIL TODO mit PHP render damit cacheable static output.
 
 ## USB-Tethering using an Android Smartphone
 
@@ -68,84 +89,6 @@ We know static text, directly written in the page editor. How can we work with W
 
 Source: [https://help.webflow.com/hc/en-us/articles/33961307099027-Intro-to-the-Webflow-CMS#h_01JS5AK4YM1PYVDB07VYDSYKCQ](https://help.webflow.com/hc/en-us/articles/33961307099027-Intro-to-the-Webflow-CMS#h_01JS5AK4YM1PYVDB07VYDSYKCQ)
 
-
-## Show Debugging Output in the Browser in WordPress
-
-Add the following code in `wp-config.php` (not in `functions.php`):
-
-```
-define( 'WP_DEBUG', true );
-define( 'WP_DEBUG_DISPLAY', true );
-@ini_set( 'display_errors', 1 );
-```
-
-In a local docker setup:
-
-`docker ps` shows the WordPress container ID like bef44f642c24. In most cases, you only need to type the first letters that distinguish it clearly from all other running containers.
-
-Edit the config file in the container (not recommended):
-
-```
-docker exec -it bef44 bash
-apt update && yes | apt install vim
-vi wp-config.php
-```
-
-Alternatively use `apt-get` like in the paragraphs below.
-
-Then you can use the _usual_ vi commands and modes like dd, shift+o, or Esc wq! to (over)write and quit (save and exit) or Esc q! to quit without saving.
-
-That's not recommended as the editor might not persist beyond the current session, and it has been omitted from the official wordpress:latest Docker image by design to keep the image size small and increase security.
-
-The recommended way to edit files is to mount your `wp-content` directory as a volume in `docker-compose.yaml`, and then edit the files from on the host machine in the preferred editor/IDE.
-
-Printing debug information to the browser is not recommended for security reasons either, so the WP_DEBUG code should be removed when no longer needed.
-
-### Debug Log
-
-Inside the docker container:
-
-- `tail -f /var/www/html/wp-content/debug.log`
-
-In the development setup with debug mode enabled, this file logs messages written by `error_log()`.
-
-### WP CLI and vi inside the wordpress:latest docker container
-
-Inside the docker container:
-
-```
-apt-get update
-apt-get install vim
-apt-get install -y curl less
-curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
-chmod +x wp-cli.phar
-mv wp-cli.phar /usr/local/bin/wp
-wp --info --allow-root
-wp post list --post_type=page --fields=ID,post_title | grep foo
-wp post list --post_type=attachment --fields=ID,post_title | grep bar.jpg
-wp post meta update <PAGE_ID> _thumbnail_id <ATTACHMENT_ID>
-```
-
-If the image isn't uploaded yet, import it and set it in one go:
-`wp media import /path/to/new-image.jpg --post_id=<PAGE_ID> --featured_image`
-
-### Database console
-
-Enter the database Docker container and log into the mysql cli using the credentials defined in `./.docker-compose.yml`
-e.g.
-
-- `docker exec -it wp-localhost_db_1 bash`
-- `mysql -uwordpress -pwordpress`
-- `use wordpress`
-
-Now you can use mysql commands like
-- `show tables like 'wp_%';` or
-- `select post_title from wp_posts where id='144093';` or
-- `select * from wp_postmeta where post_id='144093';`
-
-or complex queries like counting how many posts have an identical title in their posts and postmeta entry:
-
-- `select count(*) from wp_posts,wp_postmeta where wp_posts.post_title = wp_postmeta.meta_value AND wp_postmeta.meta_key = 'title' AND wp_postmeta.meta_id = wp_posts.id;`
 
 ## Links
 
@@ -203,13 +146,3 @@ Use "git push" to publish your local commits.
 
 ## Edit PDF metadata using exiftool
 exiftool -Title="New Title" -Author="New Author" -Subject="New Subject" -Keywords="PDF, Metadata" example.pdf
-
-## prevent git merge "conflicts"
-
-- avoid large changes
-- avoid (interactive) rebase, especially over large histories
-- check files for common patterns
-  - often, two different, completely unrelated blocks have been added at the same spot, causing an alleged conflict, as git is unsure which insertion to put first, so you decide!
-  - often, a typo has been fixed or a version number upgraded which is mostly obvious to the human eye, especially an increased number
-- brute-force paste the latest version if you don't really care for the history, e.g. when doing a squash / cleanup rebase to remove irrelevant or critical information from the history
-- start a new repository if the old one is too messy and unrelated from what you're currently doing 

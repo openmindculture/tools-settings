@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+add notes;
+add notes;
+add more notes notes;
 add changelog file;
 add more typical content to learn from;
 add resource snippets;

@@ -2,6 +2,14 @@
 
 Updated an tested with Android 16 on The Fairphone Gen. 6 in 2026 and Android 13 (?) on Google Pixel 4a in 2025 and 2026.
 
+## Keep Chrome as Default Browser
+
+Making Android 16 open all apps in Firefox prevents correct startup of financial apps like Scalable.
+
+You can still use Firefox as the preferred default browser. You can still manually open Firefox.
+
+You can open PWA web apps in Firefox and set them as apps on the home screen. As an alternative to install native apps, this works with Duolingo in 2026. 
+
 ## Multilingual (Multi-Language) Input with Google Keyboard (gboard Android app)
 
 Gboard does not have a single static keyboard layout that displays all Western characters (such as ñ, ç, ö, or ä) at once on the primary screen. To easily access these characters without constantly switching layouts, you should enable Multilingual Typing and use the long-press accent feature. The issue is a specific bug where Gboard’s QWERTY multilingual engine prioritizes German and French character maps over Turkish, causing the ı and ş to drop off the long-press menu entirely. Gboard tries to blend the dictionaries and character sets. However, Gboard limits multilingual pairing to a maximum of 3–4 closely related languages, prioritizing languages that share identical base character sets (like French and English). Thus we need to uninstall French to get back the Turkish chars.
