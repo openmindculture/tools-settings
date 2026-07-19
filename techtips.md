@@ -6,6 +6,7 @@ Always double-check if it makes sense and be careful to prevent destructive chan
 
 Noteworthy [techtips](./techtips)
 
+- [Android Soft Keyboard, Text Zoom etc.](techtips/android-soft-keyboard-etc.md)
 - [Prevent Black Screen after Xfce Login in Linux Mint](techtips/black-screen-linux-mint-xfce.md)
 - [Disable IPv6 in Linux Mint or Ubuntu](techtips/disable-ipv6.md)
 - [EJS Modules vs. CJS require](techtips/ejs-modules-vs-cjs-require.md)
