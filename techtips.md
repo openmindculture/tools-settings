@@ -13,6 +13,7 @@ Noteworthy [techtips](./techtips)
 - [DMARK + DKIM E-Mail Security](techtips/dmarc-dkim-email-security.md)
 - [EJS Modules vs. CJS require](techtips/ejs-modules-vs-cjs-require.md)
 - [Emulate CSS Media Type Print in Firefox Browser Dev Tools and in Chrome](techtips/devtools-emulate-media-type-print-css.md)
+- [ffmpeg](techtips/ffmpeg.md) basic video editing on the command line
 - [Fix Faux-Grid Firefox Height Issue](techtips/faux-grid-firefox-height-issue.md)
 - [git: merge or rebase, fork or force upstream merges](techtips/git-fork-force-upstream.md)?
 - How to [get Linux system information](techtips/get-linux-system-information.md)?

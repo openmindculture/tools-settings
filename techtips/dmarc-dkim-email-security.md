@@ -49,6 +49,18 @@ While the technical change is instant, the process is about building confidence 
 
 The Transition Phase: Once reports are clean, move to p=quarantine for another 2 to 4 weeks before reaching p=reject.
 
+## Quarantine
+
+`p=quarantine` is not a place — it's an instruction you're sending to every receiving mail server on the internet, embedded in your DNS record. It tells them: "if a message claims to be from my domain but fails SPF+DKIM alignment, treat it as suspicious."
+
+What "treat it as suspicious" means in practice is entirely up to the receiving server, not something that lives on your (or goneo's) infrastructure:
+
+Gmail → typically routes it to the recipient's Spam/Junk folder
+Outlook/Microsoft 365 → similar, into the recipient's Junk folder, sometimes with an extra warning banner
+Other providers → may tag it, delay it, or apply their own spam scoring on top
+
+So there is no quarantine folder on your server, in goneo's control panel, or anywhere you can log into — the "quarantine" happens on whichever server received the fraudulent message, using its own spam-handling mechanism. You (as the domain owner) never see the message itself unless the recipient forwards it to you or you set up ruf= (forensic reports), which sends per-message failure copies.
+
 ## What to Verify Beyond the Reports
 
 Reports provide high-level data, but you must manually verify these specific technical details to prevent deliverability crises:
