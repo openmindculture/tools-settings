@@ -45,6 +45,7 @@ These notes, code snippets, and links to documentation, tutorials, and repositor
 
 - [Shopware 6 Extension Plugin: Cost Transparency]([https://github.com/openmindculture/sw-IngoSCostTransparenc](https://github.com/openmindculture/sw-IngoSCostTransparency/tree/main/src/IngoSCostTransparency)y)
 - [Shopware 6 Theme: Open Mind Culture]([https://github.com/openmindculture/sw-IngoSOpenMindCultureTheme/src](https://github.com/openmindculture/sw-IngoSOpenMindCultureTheme/tree/main/src/IngoSOpenMindCultureTheme))
+- [Astro for simple static site generation: The Textile Buffet](https://github.com/openmindculture/thetextilebuffet.com)
 - [React + TypeScript + Astro + Tailwind + Testing: Reading List Web App](https://github.com/openmindculture/bookstack-reading-list-app)
 - [React Native + TypeScript + Expo + Radon: Bookstack Native App](https://github.com/openmindculture/bookstack-native-app)
 - [npm Module: Hexagonal Masonry Placement](https://github.com/openmindculture/hexagonal-masonry-placement)
