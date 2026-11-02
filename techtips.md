@@ -8,6 +8,7 @@ Noteworthy [techtips](./techtips)
 
 - [A bash/shell tips collection](techtips/a-bash-shell-tips-collection.md)
 - [Android Soft Keyboard, Text Zoom etc.](techtips/android-soft-keyboard-etc.md)
+- [Android Invisible "SMS of Death" Recovery](techtips/android-sms-of-death.md)
 - [CSS links in paranthesis](techtips/css-links-in-paranthesis.md)
 - [Disable IPv6 in Linux Mint or Ubuntu](techtips/disable-ipv6.md)
 - [DMARK + DKIM E-Mail Security](techtips/dmarc-dkim-email-security.md)
