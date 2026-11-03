@@ -160,8 +160,9 @@ See full discussion in this public prompt archive (TODO verify if that lasts) cr
 - [Where is the vibe in "vibe coding" and what happened to "Music Monday"?](https://dev.to/ingosteinke/where-is-the-vibe-in-vibe-coding-and-what-happened-to-music-monday-49ek) on DEV.to
 - [Pure CSS parallax perspective scrolling effect beyond landscape images](https://dev.to/ingosteinke/pure-css-parallax-perspective-beyond-landscape-images-24g2)
 - [CSS has parent selectors](https://dev.to/ingosteinke/css-hasparent-selectors-287c)
-- [Personalizing AI Coding Assistants with Git and RAG](https://g.co/gemini/share/8c6ea26002e9)
-- [Disable YouTube Auto-Translation Audio](https://g.co/gemini/share/35a4831e5ab2)
+- Lost links:
+  - Personalizing AI Coding Assistants with Git and RAG, lost Gemini chat, 2025
+  - Disable YouTube Auto-Translation Audio
 
 How limited is Google Gemini chat history? Can I access chat that are not longer in the chat history? Can I always access Gemini chats shared using a public link or do they expire? 
 
